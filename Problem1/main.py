@@ -1,7 +1,12 @@
 # main.py
 
 def calculate_sum():
-    # 在此编写代码
+    k=0
+    i=0
+    while i<=50:
+        k=k+i
+        i+=1
+    return k
 
 
 if __name__ == "__main__":

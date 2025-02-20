@@ -1,4 +1,8 @@
 def calculate_polynomial(n: int, x: int, xi_list: list) -> int:
+    k=1
+    for i in range(n):
+        k=k*(x-xi_list[i])
+    return k
     """
     计算多项式展开式 (x - x₁)(x - x₂)...(x - xn) 的值
 
